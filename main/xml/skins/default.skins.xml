@@ -1,0 +1,113 @@
+<!--
+ This file describes the locations of each skin folder
+-->
+<!--
+ WARNING: Make sure there always is a skin id="1", doesn't matter what exact skin it refers to
+-->
+<realsmart_skin_config>
+    <skin id="1" name="AFL Default">
+        <title>realsmart</title>
+        <description>The default realsmart skin</description>
+        <path>skins/AfL Default/</path>
+    </skin>
+    <skin id="2" name="Skate">
+        <title>Skate</title>
+        <description>Cowabunga dude!</description>
+        <path>skins/Skate/</path>
+    </skin>
+    <skin id="3" name="Disco">
+        <title>Disco</title>
+        <description>Play that funky music!</description>
+        <path>skins/Disco/</path>
+    </skin>
+    <skin id="4" name="Snot">
+        <title>Snot</title>
+        <description>Bogies!</description>
+        <path>skins/Snot/</path>
+    </skin>
+    <skin id="6" name="Purpleclub">
+        <title>The Purple Club</title>
+        <description>The Purple Club</description>
+        <path>skins/Purpleclub/</path>
+    </skin>
+    <skin id="10" name="Army">
+        <title>Army</title>
+        <description>Army Skin</description>
+        <path>skins/army/</path>
+    </skin>
+    <skin id="12" name="Circus">
+        <title>Circus</title>
+        <description>Circus Skin</description>
+        <path>skins/circus/</path>
+    </skin>
+    <skin id="13" name="l2smart">
+        <title>L2smart</title>
+        <description>L2smart Skin</description>
+        <path>skins/l2smart/</path>
+    </skin>
+    <skin id="17" name="Nature">
+        <title>Nature</title>
+        <description>Nature</description>
+        <path>skins/Nature/</path>
+    </skin>
+    <skin id="21" name="Rock">
+        <title>Rock</title>
+        <description>Rock slash emo skin</description>
+        <path>skins/rock/</path>
+    </skin>
+    <skin id="23" name="Chocoholic">
+        <title>Chocoholic</title>
+        <description>Chocoholic skin</description>
+        <path>skins/choco/</path>
+    </skin>
+    <skin id="24" name="Sparkly">
+        <title>Sparkly</title>
+        <description>Sparkly skin</description>
+        <path>skins/sparkly/</path>
+    </skin>
+    <skin id="25" name="Footie">
+        <title>Footie</title>
+        <description>Footie skin</description>
+        <path>skins/footie/</path>
+    </skin>
+    <skin id="26" name="Brainiac">
+        <title>Brainiac</title>
+        <description>Brainiac skin</description>
+        <path>skins/brainiac/</path>
+    </skin>
+    <skin id="28" name="Zest">
+        <title>Zest</title>
+        <description>Zest skin</description>
+        <path>skins/zest/</path>
+    </skin>
+    <skin id="29" name="thebigbang">
+        <title>Big Bang</title>
+        <description>Big Bang skin</description>
+        <path>skins/thebigbang/</path>
+    </skin>
+    <skin id="30" name="alien">
+        <title>Alien</title>
+        <description>Alien skin</description>
+        <path>skins/alien/</path>
+    </skin>
+    <skin id="31" name="digital">
+        <title>Digital</title>
+        <description>Digital skin</description>
+        <path>skins/digital/</path>
+    </skin>
+    <skin id="101" name="linustech">
+        <title>LinusTechTips</title>
+        <description>A skin for the famous YouTube PC enthusiasts LinusTechTips</description>
+        <path>skins/linustech/</path>
+    </skin>
+    <skin id="102" name="berkel">
+        <title>Berkel</title>
+        <description>BERKEL BERKEL BERKEL BERKEL</description>
+        <path>skins/berkel/</path>
+    </skin>
+    <skin id="103" name="xkcd">
+        <title>xkcd</title>
+        <description>A webcomic of romance, sarcasm, math, and language.</description>
+        <path>skins/xkcd/</path>
+    </skin>
+</realsmart_skin_config>
