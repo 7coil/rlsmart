@@ -1,9 +1,14 @@
 <!--
- This file describes the locations of each skin folder
+	rlsmart.net Skin Definitions
+	Apparently, the ID is what is stored in the rlsmart database.
+
+	ID allocations:
+
+	0 - 99		| rlsmart
+	100 - 199	| moustacheminer server services
+	200 - 999	| external github repositories
 -->
-<!--
- WARNING: Make sure there always is a skin id="1", doesn't matter what exact skin it refers to
--->
+
 <realsmart_skin_config>
     <skin id="1" name="AFL Default">
         <title>realsmart</title>
@@ -102,7 +107,7 @@
     </skin>
     <skin id="102" name="berkel">
         <title>Berkel</title>
-        <description>BERKEL BERKEL BERKEL BERKEL</description>
+        <description>Former LinusMediaGroup employee, now does </description>
         <path>skins/berkel/</path>
     </skin>
     <skin id="103" name="xkcd">

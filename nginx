@@ -1,21 +1,25 @@
-server {
-        listen 80;
-        listen [::]:80;
-
-        root /var/www/rlsmart/;
-        server_name rl.mss.ovh;
-
-        location ~* ^/(.*) {
-                # proxy_set_header Accept-Encoding "";
-                try_files $uri @redirect;
-        }
-
-        resolver 8.8.8.8;
-        location @redirect {
-                proxy_pass https://www.rlsmart.net/$1$is_args$args;
-                proxy_set_header Host www.rlsmart.net;
-                proxy_redirect http://www.rlsmart.net/ /;
-                proxy_redirect https://www.rlsmart.net/ /;
-                proxy_cookie_domain .rlsmart.net rl.mss.ovh;
+server {                                                                                                            
+        listen 80;                                                                                                  
+        listen [::]:80;                                                                                             
+                                                                                                                    
+        root /var/www/rlsmart/;                                                                                     
+        server_name rl.mss.ovh;                                                                                     
+                                                                                                                    
+        location ~* ^/(.*) {                                                                                        
+                # proxy_set_header Accept-Encoding "";                                                              
+                try_files $uri @redirect;                                                                           
+        }                                                                                                           
+                                                                                                                    
+        resolver 8.8.8.8;                                                                                           
+        location @redirect {                                                                                        
+                proxy_pass https://www.rlsmart.net/$1$is_args$args;                                                 
+                proxy_set_header Accept-Encoding "";                                                                
+                proxy_set_header Host www.rlsmart.net;                                                              
+                proxy_redirect http://www.rlsmart.net/ /;                                                           
+                proxy_redirect https://www.rlsmart.net/ /;                                                          
+                proxy_cookie_domain .rlsmart.net rl.mss.ovh;                                                        
+                sub_filter_types text/html text/css text/xml;
+                sub_filter_once off;
+                sub_filter www.rlsmart.net rl.mss.ovh;
         }
 }
