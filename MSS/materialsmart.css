@@ -8,9 +8,19 @@ main {
 	flex: 1 0 auto;
 }
 
-.logo {
+.logospace {
 	width: 100%;
 	padding: 30px;
+}
+
+.logo {
+	width: 800px;
+}
+
+@media (max-width: 1000px) {
+	.logo {
+		width: 80%;
+	}
 }
 
 .realred {
