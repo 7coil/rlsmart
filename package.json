@@ -1,0 +1,22 @@
+{
+  "name": "rlsmart",
+  "version": "1.0.0",
+  "description": "Man in the middle to add themes",
+  "main": "none",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moustacheminer/rlsmart.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moustacheminer/rlsmart/issues"
+  },
+  "homepage": "https://github.com/moustacheminer/rlsmart#readme",
+  "dependencies": {
+    "eslint": "^4.1.1"
+  }
+}

@@ -1,0 +1,100 @@
+<html>
+	<head>
+		<title>realsmart</title>
+		<link rel="shortcut icon" href="/images/favicon.ico">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="/MSS/materialsmart.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+		<script src="MSS/schools.js"></script>
+		<script>
+			$(document).ready(() => {
+				$('input.autocomplete').autocomplete({
+					data: search,
+					limit: 5, // The max amount of results that can be shown at once. Default: Infinity.
+					onAutocomplete: function(val) {
+						location.href = `/${schools[val]}`
+					},
+					minLength: 1, // The minimum length of the input for the autocomplete to start. Default: 1.
+				});
+				$('.modal').modal();
+			});
+		</script>
+	</head>
+	<body>
+		<nav class="black lighten-1" >
+			<div class="nav-wrapper container">
+				<div class="brand-logo">rl.mss.ovh</div>
+			</div>
+		</nav>
+		<div class="row center logo realred">
+			<img src="/images/errors/background_home.png">
+		</div>
+		<main>
+			<div class="row">
+				<div class="col s12">
+					<div class="row white">
+						<div class="input-field col s12">
+							<input type="text" id="autocomplete-input" class="autocomplete">
+							<label for="autocomplete-input">Type and search for your school, academy or institution</label>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="page-footer realred">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Better themes by MSS</h5>
+                <p class="grey-text text-lighten-4">This man in the middle service is provided for absolutely no warrenty. Please view the licence for more details.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#licence">Licence</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://github.com/moustacheminer/rlsmart">GitHub</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+				realsmart - the adobe flash loving organisation
+            	<a class="grey-text text-lighten-4 right" href="http://realsmart.co.uk/">Powered by <b>realsmart</b></a>
+            </div>
+          </div>
+        </footer>
+		<div id="licence" class="modal">
+			<div class="modal-content">
+				<pre>
+MIT License
+
+Copyright (c) 2017 Moustacheminer Server Services
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+				</pre>
+				</div>
+				<div class="modal-footer">
+				<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Oh, ok.</a>
+			</div>
+		</div>
+	</body>
+</html>
