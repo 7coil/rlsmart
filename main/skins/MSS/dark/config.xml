@@ -9,16 +9,16 @@
 		<subjectBoxOutlineColour>0x121212</subjectBoxOutlineColour>
 		<subjectBoxFillColour>0x333333</subjectBoxFillColour>
 		<subjectBoxTextColour>0xFFFFFF</subjectBoxTextColour>
-		<subjectBoxRollFillColour>0x333333</subjectBoxRollFillColour>
-		<subjectBoxRollOutlineColour>0x424242</subjectBoxRollOutlineColour>
-		<subjectBoxRollTextColour>0x696969</subjectBoxRollTextColour>
+		<subjectBoxRollFillColour>0x121212</subjectBoxRollFillColour>
+		<subjectBoxRollOutlineColour>0x333333</subjectBoxRollOutlineColour>
+		<subjectBoxRollTextColour>0xFFFFFF</subjectBoxRollTextColour>
 		<!--  Item box and container  -->
 		<itemContainerOutlineColour>0x121212</itemContainerOutlineColour>
 		<itemContainerFillColour>0x333333</itemContainerFillColour>
 		<itemContainerTextColour>0xFFFFFF</itemContainerTextColour>
-		<itemContainerSelectOutlineColour>0x333333</itemContainerSelectOutlineColour>
-		<itemContainerSelectFillColour>0x424242</itemContainerSelectFillColour>
-		<itemContainerSelectTextColour>0x696969</itemContainerSelectTextColour>
+		<itemContainerSelectOutlineColour>0x121212</itemContainerSelectOutlineColour>
+		<itemContainerSelectFillColour>0x333333</itemContainerSelectFillColour>
+		<itemContainerSelectTextColour>0xFFFFFF</itemContainerSelectTextColour>
 		<!--  Tooltip  -->
 		<tooltipOutlineColour>0x121212</tooltipOutlineColour>
 		<tooltipFillColour>0x333333</tooltipFillColour>
@@ -45,10 +45,10 @@
 		<!--  Drop down boxes  -->
 		<dropOutlineColour>0x121212</dropOutlineColour>
 		<dropFillColour>0x333333</dropFillColour>
-		<dropTextColour>0x696969</dropTextColour>
-		<dropRollOutlineColour>0x696969</dropRollOutlineColour>
+		<dropTextColour>0xFFFFFF</dropTextColour>
+		<dropRollOutlineColour>0x121212</dropRollOutlineColour>
 		<dropRollFillColour>0x333333</dropRollFillColour>
-		<dropRollTextColour>0xffffff</dropRollTextColour>
+		<dropRollTextColour>0xFFFFFF</dropRollTextColour>
 		<!--  Context Menu  -->
 		<contextOutlineColour>0x121212</contextOutlineColour>
 		<contextFillColour>0x333333</contextFillColour>
