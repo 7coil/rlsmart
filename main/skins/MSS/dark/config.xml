@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <skin name="dark">
 	<colourHexValues>
-	<backGroundColour>0x232323</backGroundColour>
-	<mainPanelBkgrColour>0xFFFFFF</mainPanelBkgrColour>
-	<generalTextColour>0xFFFFFF</generalTextColour>
-	<baseBarTextColour>0xFFFFFF</baseBarTextColour>
-	<!--  Subject boxes  -->
-	<subjectBoxOutlineColour>0x121212</subjectBoxOutlineColour>
-	<subjectBoxFillColour>0x333333</subjectBoxFillColour>
-	<subjectBoxTextColour>0xFFFFFF</subjectBoxTextColour>
-	<subjectBoxRollFillColour>0x333333</subjectBoxRollFillColour>
-	<subjectBoxRollOutlineColour>0x424242</subjectBoxRollOutlineColour>
-	<subjectBoxRollTextColour>0x696969</subjectBoxRollTextColour>
-	<!--  Item box and container  -->
-	<itemContainerOutlineColour>0x121212</itemContainerOutlineColour>
-	<itemContainerFillColour>0x333333</itemContainerFillColour>
-	<itemContainerTextColour>0xFFFFFF</itemContainerTextColour>
-	<itemContainerSelectOutlineColour>0x333333</itemContainerSelectOutlineColour>
-	<itemContainerSelectFillColour>0x424242</itemContainerSelectFillColour>
-	<itemContainerSelectTextColour>0x696969</itemContainerSelectTextColour>
-	<!--  Tooltip  -->
-	<tooltipOutlineColour>0x121212</tooltipOutlineColour>
-	<tooltipFillColour>0x333333</tooltipFillColour>
-	<tooltipTextColour>0xffffff</tooltipTextColour>
-	<!--  Alert box  -->
-	<alertOutlineColour>0x121212</alertOutlineColour>
-	<alertFillColour>0x333333</alertFillColour>
-	<alertTextColour>0xFFFFFF</alertTextColour>
-	<alertButtonOutlineColour>0x121212</alertButtonOutlineColour>
-	<alertButtonFillColour>0x333333</alertButtonFillColour>
-	<alertButtonTextColour>0xFFFFFF</alertButtonTextColour>
-	<!--  Title bar  -->
-	<messageStarColour>0xfdc3f8</messageStarColour>
-	<titleBarFillColour>0x333333</titleBarFillColour>
-	<titleBarTextColour>0xFFFFFF</titleBarTextColour>
-	<!--  Dock  -->
-	<dockFillAndLinkingLinesColour>0x333333</dockFillAndLinkingLinesColour>
-	<dockIconsColour>0xFFFFFF</dockIconsColour>
-	<dockTextColour>0xFFFFFF</dockTextColour>
-	<!--  Scroll bars  -->
-	<scrollOutlineColour>0x121212</scrollOutlineColour>
-	<scrollFillColour>0x333333</scrollFillColour>
-	<scrollButtonColour>0xffffff</scrollButtonColour>
-	<!--  Drop down boxes  -->
-	<dropOutlineColour>0x121212</dropOutlineColour>
-	<dropFillColour>0x333333</dropFillColour>
-	<dropTextColour>0x696969</dropTextColour>
-	<dropRollOutlineColour>0x696969</dropRollOutlineColour>
-	<dropRollFillColour>0x333333</dropRollFillColour>
-	<dropRollTextColour>0xffffff</dropRollTextColour>
-	<!--  Context Menu  -->
-	<contextOutlineColour>0x121212</contextOutlineColour>
-	<contextFillColour>0x333333</contextFillColour>
-	<contextTextColour>0xFFFFFF</contextTextColour>
-	<contextRollOutlineColour>0x121212</contextRollOutlineColour>
-	<contextRollFillColour>0x333333</contextRollFillColour>
-	<contextRollTextColour>0x696969</contextRollTextColour>
-	<!--  Pies  -->
-	<pieChartBackgroundColour>0x333333</pieChartBackgroundColour>
-	<pieChartCompleteColour>0xAAAAAA</pieChartCompleteColour>
-	<pieChartTextColour>0xFFFFFF</pieChartTextColour>
-	<pieChartTextRollColour>0x696969</pieChartTextRollColour>
-</colourHexValues>
+		<backGroundColour>0x232323</backGroundColour>
+		<mainPanelBkgrColour>0xFFFFFF</mainPanelBkgrColour>
+		<generalTextColour>0xFFFFFF</generalTextColour>
+		<baseBarTextColour>0xFFFFFF</baseBarTextColour>
+		<!--  Subject boxes  -->
+		<subjectBoxOutlineColour>0x121212</subjectBoxOutlineColour>
+		<subjectBoxFillColour>0x333333</subjectBoxFillColour>
+		<subjectBoxTextColour>0xFFFFFF</subjectBoxTextColour>
+		<subjectBoxRollFillColour>0x333333</subjectBoxRollFillColour>
+		<subjectBoxRollOutlineColour>0x424242</subjectBoxRollOutlineColour>
+		<subjectBoxRollTextColour>0x696969</subjectBoxRollTextColour>
+		<!--  Item box and container  -->
+		<itemContainerOutlineColour>0x121212</itemContainerOutlineColour>
+		<itemContainerFillColour>0x333333</itemContainerFillColour>
+		<itemContainerTextColour>0xFFFFFF</itemContainerTextColour>
+		<itemContainerSelectOutlineColour>0x333333</itemContainerSelectOutlineColour>
+		<itemContainerSelectFillColour>0x424242</itemContainerSelectFillColour>
+		<itemContainerSelectTextColour>0x696969</itemContainerSelectTextColour>
+		<!--  Tooltip  -->
+		<tooltipOutlineColour>0x121212</tooltipOutlineColour>
+		<tooltipFillColour>0x333333</tooltipFillColour>
+		<tooltipTextColour>0xffffff</tooltipTextColour>
+		<!--  Alert box  -->
+		<alertOutlineColour>0x121212</alertOutlineColour>
+		<alertFillColour>0x333333</alertFillColour>
+		<alertTextColour>0xFFFFFF</alertTextColour>
+		<alertButtonOutlineColour>0x121212</alertButtonOutlineColour>
+		<alertButtonFillColour>0x333333</alertButtonFillColour>
+		<alertButtonTextColour>0xFFFFFF</alertButtonTextColour>
+		<!--  Title bar  -->
+		<messageStarColour>0xfdc3f8</messageStarColour>
+		<titleBarFillColour>0x333333</titleBarFillColour>
+		<titleBarTextColour>0xFFFFFF</titleBarTextColour>
+		<!--  Dock  -->
+		<dockFillAndLinkingLinesColour>0x333333</dockFillAndLinkingLinesColour>
+		<dockIconsColour>0xFFFFFF</dockIconsColour>
+		<dockTextColour>0xFFFFFF</dockTextColour>
+		<!--  Scroll bars  -->
+		<scrollOutlineColour>0x121212</scrollOutlineColour>
+		<scrollFillColour>0x333333</scrollFillColour>
+		<scrollButtonColour>0xffffff</scrollButtonColour>
+		<!--  Drop down boxes  -->
+		<dropOutlineColour>0x121212</dropOutlineColour>
+		<dropFillColour>0x333333</dropFillColour>
+		<dropTextColour>0x696969</dropTextColour>
+		<dropRollOutlineColour>0x696969</dropRollOutlineColour>
+		<dropRollFillColour>0x333333</dropRollFillColour>
+		<dropRollTextColour>0xffffff</dropRollTextColour>
+		<!--  Context Menu  -->
+		<contextOutlineColour>0x121212</contextOutlineColour>
+		<contextFillColour>0x333333</contextFillColour>
+		<contextTextColour>0xFFFFFF</contextTextColour>
+		<contextRollOutlineColour>0x121212</contextRollOutlineColour>
+		<contextRollFillColour>0x333333</contextRollFillColour>
+		<contextRollTextColour>0x696969</contextRollTextColour>
+		<!--  Pies  -->
+		<pieChartBackgroundColour>0x333333</pieChartBackgroundColour>
+		<pieChartCompleteColour>0xAAAAAA</pieChartCompleteColour>
+		<pieChartTextColour>0xFFFFFF</pieChartTextColour>
+		<pieChartTextRollColour>0x696969</pieChartTextRollColour>
+	</colourHexValues>
 
 	<topNav>
 		<bar>/flashImages/topBar.png</bar>
