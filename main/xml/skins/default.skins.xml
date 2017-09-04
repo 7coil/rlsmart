@@ -100,7 +100,7 @@
         <description>Digital skin</description>
         <path>skins/digital/</path>
     </skin>
-	<skin id="100">
+	<skin id="100" name="dark">
 		<title>Dark Theme</title>
 		<description>Dark Theme</description>
 		<path>skins/MSS/dark</path>
