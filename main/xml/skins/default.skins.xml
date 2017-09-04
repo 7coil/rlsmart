@@ -103,7 +103,7 @@
 	<skin id="100" name="dark">
 		<title>Dark Theme</title>
 		<description>Dark Theme</description>
-		<path>skins/MSS/dark</path>
+		<path>skins/MSS/dark/</path>
 	</skin>
     <skin id="101" name="linustech">
         <title>LinusTechTips</title>
