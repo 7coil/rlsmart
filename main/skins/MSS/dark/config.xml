@@ -2,7 +2,7 @@
 <skin name="dark">
 	<colourHexValues>
 		<backGroundColour>0x232323</backGroundColour>
-		<mainPanelBkgrColour>0xFFFFFF</mainPanelBkgrColour>
+		<mainPanelBkgrColour>0x333333</mainPanelBkgrColour>
 		<generalTextColour>0xFFFFFF</generalTextColour>
 		<baseBarTextColour>0xFFFFFF</baseBarTextColour>
 		<!--  Subject boxes  -->
