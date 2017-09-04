@@ -232,7 +232,7 @@ const schools = { // eslint-disable-line no-unused-vars
 	'XP East': 'xpeast',
 	'XP School': 'xp',
 	'xxBrook Vale Schoolxx': 'brookvale',
-	'xxGroby Collegexx': 'groby'
+	'xxGroby Collegexx': 'groby',
 };
 
 const search = { // eslint-disable-line no-unused-vars

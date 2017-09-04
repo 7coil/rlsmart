@@ -100,19 +100,24 @@
         <description>Digital skin</description>
         <path>skins/digital/</path>
     </skin>
+	<skin id="100">
+		<title>Dark Theme</title>
+		<description>Dark Theme</description>
+		<path>skins/MSS/dark</path>
+	</skin>
     <skin id="101" name="linustech">
         <title>LinusTechTips</title>
         <description>A skin for the famous YouTube PC enthusiasts LinusTechTips</description>
-        <path>skins/linustech/</path>
+        <path>skins/MSS/linustech/</path>
     </skin>
     <skin id="102" name="berkel">
         <title>Berkel</title>
-        <description>Former LinusMediaGroup employee, now does </description>
-        <path>skins/berkel/</path>
+        <description>Former LinusMediaGroup employee, now does his own thing.</description>
+        <path>skins/MSS/berkel/</path>
     </skin>
     <skin id="103" name="xkcd">
         <title>xkcd</title>
         <description>A webcomic of romance, sarcasm, math, and language.</description>
-        <path>skins/xkcd/</path>
+        <path>skins/MSS/xkcd/</path>
     </skin>
 </realsmart_skin_config>
